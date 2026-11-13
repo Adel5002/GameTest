@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Страж Снов</string>
+    <string name="title_activity_main">Страж Снов</string>
+    <string name="package_name">com.dreamguard.game</string>
+    <string name="custom_url_scheme">com.dreamguard.game</string>
+</resources>

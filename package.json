@@ -1,0 +1,22 @@
+{
+  "name": "strazh-snov",
+  "version": "1.0.0",
+  "description": "Страж Снов — залипательный merge tower defense про детскую спальню",
+  "private": true,
+  "scripts": {
+    "serve": "npx --yes http-server www -p 8080 -c-1",
+    "sync": "npx cap sync android",
+    "assets": "npx capacitor-assets generate --android --iconBackgroundColor '#0b0920' --splashBackgroundColor '#0b0920'",
+    "apk": "npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/haptics": "^8.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2"
+  }
+}

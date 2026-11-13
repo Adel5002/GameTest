@@ -1,0 +1,9 @@
+{
+  "appId": "com.dreamguard.game",
+  "appName": "Страж Снов",
+  "webDir": "www",
+  "backgroundColor": "#0b0920",
+  "android": {
+    "backgroundColor": "#0b0920"
+  }
+}
